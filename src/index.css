@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;  
+  background: rgb(69, 152, 152);
+  color: rgb(250, 248, 248);
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;  
+  background: rgb(69, 152, 152);
+  color: rgb(225, 222, 222);
+}
+
+.parrafo-detail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(69, 152, 152);
+  color: rgb(225, 222, 222);
+}
+
+a {
+  text-decoration: none;
+  font-family: "Advent Pro", sans-serif;
+  color: black; }
+  a:hover {
+    color: #ab7c05; }
+
+
+li {
+  font-family: "Advent Pro", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: large;
+  font-weight: bolder; }
+
+
+.fondo {
+  height: 120vh;
+  background: url(./img/fondo.png) no-repeat center center fixed;
+  background-size: cover;
+}
